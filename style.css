@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    /* align-content: center; */
+}
+.TopParent{
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    /* margin-top: 50px; */
+    /* align-content: center; */
+}
+.child{
+    width: 400px;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+}
+.One{
+
+}
+.Onetop{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 5px;
+}
+.Onemiddle{
+    font-weight: 700;
+    margin: 5px;
+}
+.Onelast{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.fa-star{
+    color: green;
+}
